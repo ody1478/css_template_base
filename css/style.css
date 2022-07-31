@@ -55,18 +55,39 @@ p.sub_txt {
     margin-top: 23px;
 }
 
-.dep02 .img_wrap {
+.dep02 .img_wrap ,
+.dep04 .img_wrap {
     width: 480px;
     height: 480px;
-    background-color: #d3d3d3;
     border-radius: 30px;
+}
+.dep02 .img_wrap {
+    background-color: #d3d3d3;
     margin-right: 140px;
 }
-.dep02 .inner {
+
+.dep02 .inner ,
+.dep04 .inner {
     /* max-width: 1000px; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dep04 {
+    background-color: #8b8b8b;
+}
+.dep04 h2.title_medium,
+.dep04 p.depth_txt {
+    color: white;
+}
+.dep04 .img_wrap {
+    background-color: #fff;
+    order: 2;
+    margin-left: 140px;
+}
+.dep04 .txt_wrap {
+    order: 1;
 }
 
 .dep03 {
