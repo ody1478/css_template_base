@@ -89,3 +89,11 @@ p.depth_txt {
     font-weight: 200;
     margin: 40px 0;
 }
+
+h4 {
+    font-size: 4.3rem;
+}
+.list_txt {
+    font-size: 1.7rem;
+    color: #818181;
+}
