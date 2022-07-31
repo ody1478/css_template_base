@@ -133,3 +133,27 @@ p.sub_txt {
 .depth03_list li:nth-child(2){
     margin-bottom: 50px;
 }
+
+.depth05_list {
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+.depth05_list .img_wrap {
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 23px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+footer .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
