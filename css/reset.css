@@ -18,7 +18,7 @@ a {
     position: relative;
     max-width: 1200px;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* 폰트 관련 속성 정의 */
